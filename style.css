@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  background: url("assets/radio.jpg");
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 5rem;
+  font-family: 'Audiowide', cursive;
+  color: #505bda;
+  text-shadow: 3px 0 #DA0463;
+}
+
+a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer{
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+.set{
+  margin: 10% auto;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #f7be16;
+  opacity: 0.5;
+}
+
+.radio{
+  outline: none;
+  border: 10px solid #ff502f;
+  font-size: 2rem;
+  font-family: 'Audiowide', cursive;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #2a1a5e;
+  text-shadow: #ebefd0;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff;
+}
